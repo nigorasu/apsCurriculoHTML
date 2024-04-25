@@ -1,0 +1,74 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .foto {
+        top: 20px;
+        left: calc(50% - 100px);
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+hr {
+    border: none; 
+    height: 2px;
+    background-color: #3b4344;
+    margin: 20px 0;
+  }
+  
+header h1 {
+    color: #3b4344;
+}
+
+header h2 {
+    color: #0e76a8;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 850px;
+}
+
+
+.icone {
+    color: #0e76a8;
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.sectionIP h2 {
+    color: #3b4344;
+}
+
+.sectionQ h2 {
+    color: #3b4344;
+}
+
+.sectionEP h2 {
+    color: #3b4344;
+}
+
+.sectionEP strong {
+    color: #3b4344;
+}
